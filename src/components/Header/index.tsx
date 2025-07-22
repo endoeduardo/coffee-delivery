@@ -5,15 +5,17 @@ import { Aside, Container } from './styles'
 export function Header() {
   return (
     <Container>
+      <Link to="/">
         <img src='/logo.svg' alt='Coffee Delivery' />
+      </Link>
       <Aside>
         <div>
           <MapPin size={22} weight='fill' />
           <span>Porto Alegre, RS</span>
         </div>
-        <a href='#' className='shopping-cart'>
+        <Link to='/checkout' className='shopping-cart'>
           <ShoppingCart size={22} weight='fill' className="shopping-cart-img" />
-        </a>
+        </Link>
       </Aside>
     </Container>
   )
