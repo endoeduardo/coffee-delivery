@@ -1,4 +1,5 @@
 import { HomeDescription } from "./components/HomeDescription";
+import { ProductCard } from "./components/ProductCard";
 import { ProductsContainer } from './styles';
 
 export function Home() {
@@ -7,6 +8,7 @@ export function Home() {
       <HomeDescription />
       <ProductsContainer>
         <h2>Nossos Produtos</h2>
+        <ProductCard />
       </ProductsContainer>
     </>
   );

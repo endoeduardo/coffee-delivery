@@ -3,8 +3,8 @@ import { mixins } from '../../styles/mixins'
 
 export const ProductsContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: left;
   max-width: 1160px;
   margin: 0 auto;
   padding: 2rem;
